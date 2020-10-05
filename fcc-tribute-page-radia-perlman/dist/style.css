@@ -1,0 +1,57 @@
+body {
+  background-color: snow;
+}
+h1{
+  font-size:5vw;
+}
+h2{
+  font-size:2vw;
+}
+h3{
+  font-size:1.5vw;
+}
+#main{
+  background-color: linen;
+  border-radius: 5px; /* rounding edge of border */
+  margin-left: 75px;
+  margin-right: 75px;
+  padding: 10px;
+  max-width: 1400px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#title{
+  text-align: center;
+  color: #331a00;
+  padding: 10px;
+}
+#img-div{
+  padding: 10px;
+  background-color: snow;
+}
+#image{
+  border-radius: 5px;
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 25%;
+  height: auto;
+}
+#img-caption{
+  text-align:center;
+  color:#331a00;
+}
+#tribute-info{
+  padding: 10px;
+  max-width: 1400px;
+  margin-left: 150px;
+  margin-right: 150px;
+ color: #331a00;
+}
+#tribute-link{
+  padding: 10px;
+  color:#331a00;
+}
+#poem{
+  text-align: center;
+  font-style: italic;
+}
