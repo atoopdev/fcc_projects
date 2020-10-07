@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - fCC Project 2 - Build a Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Coffee or Tea?</h1>
+    <p id="description">Are you a coffee or tea drinker? Inquiring minds want to know!</p>
+    <form id="survey-form">
+      <label for "name-label" id="name-label">Name:</label><BR>
+      <input type="text" id="name" name="name" placeholder="First Name Last Name" required> <BR><BR>
+      <label for "email-label" id="email-label">Email:</label><BR>
+      <input type="email" id="email" name="email" placeholder="youremail@something.com" required><BR><BR>
+      <label for "number-label" id="number-label">Age:</label><BR>
+      <input type="number" id="number" name="number" min="1" max="125" placeholder="Ex. 21" required><BR><BR>
+      Please provide your gender:<BR>
+      <input type="radio" id = "female" name="gender" value="female">
+      <label for="female">Female</label><BR>
+      <input type="radio" id = "male" name="gender" value="male">
+      <label for="male">Male</label><BR>
+      <input type="radio" id = "other" name="gender" value="other">
+      <label for="other">Other</label><BR><BR>
+      <label for="dropdown">Do you prefer coffee or tea?</label><BR>
+<select id="dropdown" name="dropdown" required>
+<option value="coffee">Coffee</option>
+<option value="tea">Tea</option>
+<option value="other">Other</option>
+</select><BR><BR>
+      I enjoy the following food with my beverage:<BR>
+<input type="checkbox" id="food1" name="food1" value="Bagel">
+  <label for="food1">Bagel</label><br>
+<input type="checkbox" id="food2" name="food2" value="Biscotti">
+  <label for="food2">Biscotti</label><br>
+<input type="checkbox" id="food3" name="food3" value="Toast">
+  <label for="food3">Toast</label><br>
+<input type="checkbox" id="food4" name="food4" value="Croissant">
+  <label for="food4">Croissant</label><br>
+      <input type="checkbox" id="food5" name="food5" value="Other">
+  <label for="food4">Other</label><br><br>
+      <textarea name="textarea">
+Additional comments go here.
+</textarea><BR><BR>
+      <input type="submit" id="submit" value="Submit">
+    </form>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
