@@ -1,6 +1,7 @@
 body {
   background-color: snow;
 }
+/*
 h1{
   font-size:5vw;
 }
@@ -9,14 +10,16 @@ h2{
 }
 h3{
   font-size:1.5vw;
-}
+} */
 #main{
   background-color: linen;
   border-radius: 5px; /* rounding edge of border */
-  margin-left: 75px;
-  margin-right: 75px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
   padding: 10px;
-  max-width: 1400px;
+  max-width:60%;
+  min-width: 300px;
   font-family: Arial, Helvetica, sans-serif;
 }
 #title{
@@ -39,13 +42,18 @@ h3{
 #img-caption{
   text-align:center;
   color:#331a00;
+  line-height: 1.5;
+  font-style: italic;
 }
 #tribute-info{
-  padding: 10px;
-  max-width: 1400px;
-  margin-left: 150px;
-  margin-right: 150px;
+  padding: 5px;
+  display: block;
+  max-width: 60%;
+   min-width: 290px;
+  margin-left: auto;
+  margin-right: auto;
  color: #331a00;
+  line-height: 1.5;
 }
 #tribute-link{
   padding: 10px;
